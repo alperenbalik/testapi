@@ -1,6 +1,5 @@
-from flask import *
-import sqlite3
-import json
+from flask import Flask
+import os
 
 app = Flask(__name__)
 
