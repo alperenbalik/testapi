@@ -8,3 +8,5 @@ app = Flask(__name__)
 def main():
     return "Welcome to the Student API!"
 
+if __name__ == "__main__":
+    app.run()
