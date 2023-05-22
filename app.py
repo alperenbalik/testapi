@@ -4,7 +4,7 @@ import json
 
 app = Flask(__name__)
 
-@app.route("/", methods=["GET"])
+@app.route("/")
 def go_home():
     return "Welcome to the Student API!"
 
