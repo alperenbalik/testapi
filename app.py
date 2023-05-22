@@ -1,7 +1,6 @@
 from flask import *
 import sqlite3
 import json
-from student import Student
 
 app = Flask(__name__)
 
